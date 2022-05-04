@@ -1,0 +1,161 @@
+@font-face {
+    font-family: "Wordle"; 
+    src: url("fonts/karnakcondensed-normal-700.woff") format("woff");
+  }
+  * {
+    font-family: "Wordle", Arial, sans-serif;
+  }
+  
+h1{
+    text-align: center;
+}
+
+.tabuleiro{
+    text-align: center;
+    font-weight: bold;
+    font-size: 30px;
+    line-height: 60px;
+}
+
+.linha-texto{
+    margin-top: 8px;
+}
+
+.linha-vazio{
+    margin-top: -14px;
+}
+
+.quadrado{
+    border: 2px solid #bcbcbc;
+    display: inline-block;
+    width: 60px;
+    height: 60px;
+    margin-left: -3.5px;
+}
+
+.quadrado-cinza{
+    border: 2px solid #787C7E;
+    background-color: #787C7E;
+    display: inline-block;
+    width: 60px;
+    height: 60px;
+    color: #ffffff;
+    margin-left: -3.5px;
+}
+
+.quadrado-amarelo{
+    border: 2px solid #C9B458;
+    background-color: #C9B458;
+    display: inline-block;
+    width: 60px;
+    height: 60px;
+    color: #ffffff;
+    margin-left: -3.5px;
+}
+
+.quadrado-verde{
+    border: 2px solid #6AAA64;
+    background-color: #6AAA64;
+    display: inline-block;
+    width: 60px;
+    height: 60px;
+    color: #ffffff;
+    margin-left: -3.5px;
+}
+
+.quadrado-borda{
+    border: 2px solid #787C7E;
+    display: inline-block;
+    width: 60px;
+    height: 60px;
+    margin-left: -3.5px;
+}
+
+.teclado{
+    text-align: center;
+    margin: 0 0 8px;
+    font-size: 13px;
+    font-weight: bold;
+    line-height: 55px;
+}
+
+.tecla{
+    border: 1px;
+    border-color: none;
+    background-color:#D3D6DA;
+    border-radius: 4px;
+    display: inline-block;
+    width: 42px;
+    height: 59px;
+    margin: 3px 3px 4px 0;
+}
+
+.tecla-enter{
+    border: 1px;
+    border-color: none;
+    background-color:#D3D6DA;
+    border-radius: 4px;
+    display: inline-block;
+    width: 65px;
+    height: 59px;
+    margin: 3px 3px 4px 0;
+}
+
+.tecla-verde{
+    border: 1px;
+    border-color: none;
+    background-color:#6AAA64;
+    border-radius: 4px;
+    display: inline-block;
+    width: 42px;
+    height: 59px;
+    margin: 3px 3px 4px 0;
+    color: #ffffff;
+}
+
+.tecla-cinza{
+    border: 1px;
+    border-color: none;
+    background-color:#787C7E;
+    border-radius: 4px;
+    display: inline-block;
+    width: 42px;
+    height: 59px;
+    margin: 3px 3px 4px 0;
+    color: #ffffff;
+}
+
+.tecla-amarela{
+    border: 1px;
+    border-color: none;
+    background-color:#C9B458;
+    border-radius: 4px;
+    display: inline-block;
+    width: 42px;
+    height: 59px;
+    margin: 3px 3px 4px 0;
+    color: #ffffff;
+}
+
+.tecla-delete{
+    border: 1px;
+    border-color: none;
+    background-color:#D3D6DA;
+    border-radius: 4px;
+    display: inline-block;
+    width: 65px;
+    height: 59px;
+    margin: 3px 3px 4px 0;
+    position: relative;
+    top: 0.45rem;
+}
+
+img{
+    width: 24px;
+    display: inline-flex;
+    padding: 15px 0 0;
+}
+
+.linha3{
+    margin-top: -6px;
+}
